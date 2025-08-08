@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de Ménage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gestion de Ménage</h1>
+
+    <div id="app">
+        <h2>Membres du Ménage</h2>
+        <ul id="member-list"></ul>
+        <form id="add-member-form">
+            <input type="text" id="member-name" placeholder="Nom du membre" required>
+            <button type="submit">Ajouter un membre</button>
+        </form>
+        <hr>
+
+        <h2>Tâches Ménagères</h2>
+        <ul id="chore-list"></ul>
+        <form id="add-chore-form">
+            <input type="text" id="chore-description" placeholder="Description de la tâche" required>
+            <button type="submit">Ajouter une tâche</button>
+        </form>
+        </form>
+        <hr>
+
+        <h2>Liste de Courses</h2>
+        <ul id="shopping-list"></ul>
+        <form id="add-item-form">
+            <input type="text" id="item-name" placeholder="Nom de l'article" required>
+            <button type="submit">Ajouter un article</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
